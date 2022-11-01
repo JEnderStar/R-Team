@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenu.unity
     guid: 024ffa857440bd847ae4ba7083ec63fc
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/LowPolyFPS.unity
+    guid: 11be78d642ca8b34ea928642243b4caa
   m_configObjects:
     Global Input Config Asset Key: {fileID: 11400000, guid: dd3b0d883a9ee4388b0ec876b51e7bbd,
       type: 2}
