@@ -9,6 +9,9 @@ TagManager:
   - WeaponHinge
   - Terrain
   - Fire
+  - Health
+  - Ammo
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
@@ -17,13 +20,13 @@ TagManager:
   - Water
   - UI
   - groundCheck
-  - 
+  - Ground
   - First Person Weapon
   - Physics Shell
   - Enemy
   - Obstacle
   - Player
-  - 
+  - Pickup
   - 
   - 
   - 

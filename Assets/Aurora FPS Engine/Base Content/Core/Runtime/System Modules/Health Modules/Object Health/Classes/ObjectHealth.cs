@@ -114,6 +114,13 @@ namespace AuroraFPSRuntime.SystemModules.HealthModules
         /// Take damage to the health.
         /// </summary>
         /// <param name="amount">Damage amount.</param>
+
+        public void Heal(float amount)
+        {
+            SetHealth(health + amount);
+            health = Mathf.Min(health, maxHealth);
+        }
+
         public override void TakeDamage(float amount)
         {
             SetHealth(health - amount);
